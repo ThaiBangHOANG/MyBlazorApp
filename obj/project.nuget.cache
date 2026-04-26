@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "/RWBNLIzrv8=",
+  "dgSpecHash": "C1CP6sdNTLY=",
   "success": true,
   "projectFilePath": "C:\\Users\\thaib\\MyBlazorApp\\MyBlazorApp.csproj",
   "expectedPackageFiles": [
@@ -28,9 +28,9 @@
     "C:\\Users\\thaib\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.8\\microsoft.extensions.primitives.9.0.8.nupkg.sha512",
     "C:\\Users\\thaib\\.nuget\\packages\\microsoft.jsinterop\\9.0.8\\microsoft.jsinterop.9.0.8.nupkg.sha512",
     "C:\\Users\\thaib\\.nuget\\packages\\microsoft.jsinterop.webassembly\\9.0.8\\microsoft.jsinterop.webassembly.9.0.8.nupkg.sha512",
-    "C:\\Users\\thaib\\.nuget\\packages\\microsoft.net.illink.tasks\\9.0.8\\microsoft.net.illink.tasks.9.0.8.nupkg.sha512",
-    "C:\\Users\\thaib\\.nuget\\packages\\microsoft.net.sdk.webassembly.pack\\9.0.8\\microsoft.net.sdk.webassembly.pack.9.0.8.nupkg.sha512",
-    "C:\\Users\\thaib\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\9.0.8\\microsoft.netcore.app.runtime.mono.browser-wasm.9.0.8.nupkg.sha512"
+    "C:\\Users\\thaib\\.nuget\\packages\\microsoft.net.illink.tasks\\9.0.15\\microsoft.net.illink.tasks.9.0.15.nupkg.sha512",
+    "C:\\Users\\thaib\\.nuget\\packages\\microsoft.net.sdk.webassembly.pack\\9.0.15\\microsoft.net.sdk.webassembly.pack.9.0.15.nupkg.sha512",
+    "C:\\Users\\thaib\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\9.0.15\\microsoft.netcore.app.runtime.mono.browser-wasm.9.0.15.nupkg.sha512"
   ],
   "logs": []
 }
