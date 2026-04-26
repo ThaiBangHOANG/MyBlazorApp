@@ -1,0 +1,50 @@
+@page "/register"
+
+<h3>Event Registration</h3>
+
+<EditForm Model="registration" OnValidSubmit="HandleSubmit">
+
+<DataAnnotationsValidator />
+<ValidationSummary />
+
+<label>Name:</label>
+<InputText @bind-Value="registration.Name" />
+
+<br />
+
+<label>Email:</label>
+<InputText @bind-Value="registration.Email" />
+
+<br />
+
+<button type="submit">
+    Register
+</button>
+
+</EditForm>
+
+
+
+@code {
+
+private RegistrationModel registration =
+    new RegistrationModel();
+
+//private string message;
+
+private void HandleSubmit()
+{
+  //  message = "Registration successful!";
+}
+
+public class RegistrationModel
+{
+    [System.ComponentModel.DataAnnotations.Required]
+    public string Name { get; set; }
+
+    [System.ComponentModel.DataAnnotations.Required]
+    [System.ComponentModel.DataAnnotations.EmailAddress]
+    public string Email { get; set; }
+}
+
+}
